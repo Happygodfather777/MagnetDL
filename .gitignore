@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+MagnetDL.exe
+
+# Never commit personal settings or Plex tokens
+settings.json
+.magnetdl/
+*.fastresume
+
+# Downloads and OS clutter
+*.torrent
+*.part
+*.parts
+Thumbs.db
+desktop.ini
+.DS_Store
